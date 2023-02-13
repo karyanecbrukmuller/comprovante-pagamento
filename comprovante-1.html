@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprovante 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        html, body, h1, h2, h3, p { margin: 0; padding: 0; }
+
+        .primary-color-bg { background-color: rgba(191, 8, 17, 0.86); }
+        .primary-color-font { color: rgba(191, 8, 17, 0.86); }
+
+        .secondary-color-bg { background-color: rgba(133, 13, 19, 1); }
+        .secondary-color-font { color: rgba(133, 13, 19, 1);; }
+
+        .receipt { width: 800px; font-family: 'Petrona', serif; margin: 0 auto; background-color: #F4F4F4; border: 1px solid black; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
+        
+        header { color: #fff; display: flex; padding: 25px 0; }
+        header .title { width: 70%; display: flex; justify-content: center; align-items: center; }
+        header .title h1 { width: 80%; font-size: 36px; font-weight: 400; }
+        header .logo { display: flex; width: 30%; align-items: center; justify-content: center; }
+        header .logo img { border-radius: 50px; object-fit: contain; background-color: #f4f4f4; box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4); }
+
+        main .data { text-align: center; padding: 60px 0 40px 0; }   
+        main .data h3 { font-size: 30px; margin-bottom: 60px; }
+        main .data p { font-size: 28px; font-weight: 500; }
+
+        main .value { background-color: #D9D9D9; text-align: center; padding: 30px 0; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        main .value h2 { font-size: 35px; font-weight: 700; }
+
+        main .numbers { width: 80%; margin: 0 auto; padding: 60px 0 40px 0; display: flex; justify-content: center; column-gap: 10px; flex-wrap: wrap; }
+        main .numbers .ball { display: flex; width: 70px; height: 70px; border-radius: 50px; margin-bottom: 10px; align-items: center; justify-content: center; }
+        main .numbers .ball span { color: #fff; font-size: 16px; font-weight: 700; }
+
+        footer { color: #fff; padding: 60px 0 20px 0; text-align: center; }
+        footer p { font-size: 18px; font-weight: 400; }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <header class="primary-color-bg"> 
+            <div class="title">
+                <h1>Comprovante de Pagamento</h1>
+            </div>
+            <div class="logo">
+                <img width="150px" height="150px" src="logo-azul.png">
+            </div> 
+        </header>
+
+        <main>
+            <div class="data">
+                <h3 class="secondary-color-font">ESCOLHA ALEATÓRIA</h3>
+                <p>Nome: Irio Czaikowski Junior</p>
+                <p>Tel: (41) 98502-****</p>
+            </div>
+            <div class="value">
+                <h2 class=" primary-color-font">Valor Pago: R$25,90</h2>
+            </div>
+            <div class="numbers">
+                <div class="secondary-color-bg ball">
+                    <span>15839</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>258</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>1798</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>15839</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>258</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>1798</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>15839</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>258</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>1798</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>15839</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>258</span>
+                </div>
+                <div class="secondary-color-bg ball">
+                    <span>1798</span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="primary-color-bg">
+            <p>Comprovante gerado em: 21/12/2024 ás 11:26:40</p>
+        </footer>
+    </div>
+</body>
+</html>
