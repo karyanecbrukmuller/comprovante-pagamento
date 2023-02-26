@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprovante 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        html, body, h1, h2, h3, p { margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+
+        .color-bg { background: linear-gradient(180deg, #FFFFFF 0%, #000000 98.4%); }
+        .primary-color { color: #000000; }
+        .secondary-color { color: #ffffff; }
+        .primary-color-bg { background: rgba(133, 133, 133, 1); }
+
+        .receipt { width: 800px; height: 1200px; margin: 0 auto; padding: 50px; border: 1px solid rgb(0, 0, 0); }
+        .receipt .content { border: 3px solid;}
+
+        header { text-align: center; margin-top: 50px; }
+        header p { font-size: 20px; font-weight: 400;  }
+
+        main .data { padding: 50px 0; }
+        main .data .logo { display: flex; justify-content: center; margin-bottom: 50px; }
+        main .data .logo img { object-fit: contain; background-color: #FFFFFF; border: 3px solid #000; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+        main .data .title { text-align: center; margin-bottom: 70px; }
+        main .data .title h2 { font-size: 36px; font-weight: 600; position: relative; }
+        main .data .title h2::before { content: ''; position: absolute; width: 400px; height: 1px; background-color: #000; bottom: 0; transform: translate(-50px,10px); }
+        main .data .information { width: 80%; margin: 0 auto; margin-bottom: 70px; }
+        main .data .information p { font-size: 22px; font-weight: 400; line-height: 2; }
+        main .data .value { text-align: center; margin-bottom: 30px; }
+        main .data .value h1 { font-size: 36px; font-weight: 700; position: relative; }
+        main .data .value h1::before { content: ''; position: absolute; width: 570px; height: 1px; background-color: #000; bottom: 0; transform: translate(-70px,20px); }
+
+    </style>
+</head>
+<body>
+    <div class="receipt color-bg">
+        <div class="content secondary-color">
+            <header>
+                <p class="primary-color">Comprovante gerado em: 21/12/2024 ás 11:26:40</p>
+            </header>
+
+            <main>
+                <section class="data">
+                    <div class="logo">
+                        <img width="220" height="150" src="logo-lion.jpeg">
+                    </div>
+                    <div class="title primary-color">
+                        <h2>DEMONSTRAÇÃO</h2>
+                    </div>
+                    <div class="information primary-color">
+                        <p>Nome: Karyane Cristina Brukmuller</p>
+                        <p>Tel: (41) 99512-****</p>
+                    </div>
+                    <div class="value secondary-color">
+                        <h1>VALOR PAGO: R$ 200,70</h1>
+                    </div>
+                </section>
+
+                <section class="numbers">
+                    <div class="">
+
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

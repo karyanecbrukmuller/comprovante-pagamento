@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprovante 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Rubik:wght@400;500;700&family=Urbanist:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html, body, h1, h2, h3, p { margin: 0; padding: 0; font-family: 'Rubik', sans-serif; }
+
+        .color-bg { background: linear-gradient(180deg, #08305F 0%, #FFFFFF 61.44%); }
+        .primary-color-bg { background-color: rgba(8, 48, 95, 1); }
+        .secondary-color-br { background-color: rgba(8, 48, 95, 0.8); }
+
+        .receipt { width: 1020px; margin: 0 auto; padding: 50px; border: 1px solid rgb(0, 0, 0); }
+        .receipt .content { background-color: #FFFFFF; box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15); }
+
+        header { display: flex; padding: 60px 0; }
+        header .logo { display: flex; width: 30%; align-items: center; justify-content: center; position: relative; }
+        header .logo img { object-fit: contain; background-color: rgba(255, 255, 255, 1); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); z-index: 1; }
+        header .logo::before { content: ''; width: 160px; height: 160px; background-color: rgba(217, 217, 217, 0.7); position: absolute; left: 50px; bottom: 25px; } 
+        header .data { width: 70%; }
+        header .data h1 { font-size: 40px; font-weight: 600; color: #000; margin-bottom: 30px; }
+        header .data p { font-size: 24px; font-weight: 400; color: #000; margin-bottom: 15px; }
+
+        main .title { text-align: center; margin-bottom: 30px; font-size: 30px; font-weight: 700; }
+        main .numbers { width: 90%; margin: 0 auto; display: flex; justify-content: center; column-gap: 10px; flex-wrap: wrap; margin-bottom: 50px; }
+        main .numbers .ball { display: flex; width: 94px; height: 94px; margin-bottom: 10px; align-items: center; justify-content: center; background-image: url("./background-ball.svg"); }
+        main .numbers .ball span { font-size: 15px; font-weight: 500; color: #FFFFFF; }
+        main .value { text-align: center; padding: 5px 0; }
+        main .value { font-size: 20px; font-weight: 700; color: #FFFFFF; }
+
+        footer { background-color: #ffffff; color: rgba(0, 0, 0); padding-top: 60px; padding-bottom: 20px; text-align: center; }
+        footer p { font-size: 24px; font-weight: 400; }
+    </style>
+</head>
+<body>
+    <div class="receipt color-bg">
+        <div class="content">
+            <header>
+                <div class="logo">
+                    <img width="160" height="160" src="logo-vermelha.png">
+                </div>
+                <div class="data">
+                    <h1>DEMONSTRAÇÃO</h1>
+                    <p>Nome: Karyane Cristina Brukmuller</p>
+                    <p>Tel: (41) 99512-****</p>
+                </div>
+            </header>
+
+            <main>
+                <h2 class="title">ESCOLHA ALEATÓRIA</h2>
+                <div class="numbers">
+                    <div class="ball">
+                        <span>15839</span>
+                    </div>
+                    <div class="ball">
+                        <span>258</span>
+                    </div>
+                    <div class="ball">
+                        <span>15839</span>
+                    </div>
+                    <div class="ball">
+                        <span>258</span>
+                    </div>
+                    <div class="ball">
+                        <span>1798</span>
+                    </div>
+                    <div class="ball">
+                        <span>15839</span>
+                    </div>
+                    <div class="ball">
+                        <span>15839</span>
+                    </div>
+                    <div class="ball">
+                        <span>258</span>
+                    </div>
+                    <div class="ball">
+                        <span>1798</span>
+                    </div>
+                    <div class="ball">
+                        <span>15839</span>
+                    </div>
+                    <div class="ball">
+                        <span>15839</span>
+                    </div>
+                    <div class="ball">
+                        <span>258</span>
+                    </div>
+                </div>
+                <div class="value secondary-color-br">
+                    <h2>VALOR PAGO: R$ 49,30</h2>
+                </div>
+            </main>
+
+            <footer>
+                <p>Comprovante gerado em: 21/12/2024 ás 11:26:40</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
