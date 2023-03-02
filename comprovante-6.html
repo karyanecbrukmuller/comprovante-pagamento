@@ -5,12 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprovante 6</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        html, body, h1, h2, h3, p { margin: 0; padding: 0; font-family: 'Manrope', sans-serif; }
+
+        .primary-color-bg { background: rgba(164, 132, 53, 1); }
+
+        .receipt { width: 1100px; margin: 0 auto; background-color: rgb(239, 239, 239); border: 1px solid black; border-radius: 30px; }
         
+        header { color: #000; }
+        header .primary-color-bg { height: 80px; border-top-right-radius: 30px; border-top-left-radius: 30px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        header .content { display: flex; padding: 40px 0; }
+        header .content .title { width: 70%; display: flex; justify-content: center; align-items: center; }
+        header .content .title h1 { font-size: 40px; font-weight: 800; letter-spacing: 3px; }
+        header .content .logo { width: 30%; display: flex; align-items: center; justify-content: center; }
+        header .content .logo img { object-fit: contain; background-color: #fff; box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4); }
+        
+        main p { position: relative; font-size: 20px; font-weight: 800; letter-spacing: 2px; margin-bottom: 10px; }
+        main p::before { content: ''; position: absolute; width: 10px; height: 10px; border-radius: 50%; left: -30px; top: 30%; background-color: rgba(164, 132, 53, 1); }
+
+        main .data { width: 80%; margin: 0 auto; margin-bottom: 40px; } 
+        main .data h2 { position: relative; width: 37%; margin: 0 auto; text-align: center; padding: 30px 0; font-size: 22px; font-weight: 600; letter-spacing: 2px; }
+        main .data h2::before { content: ''; position: absolute; width: 15px; height: 15px; top: 42%; left: 0; border-radius: 50%; background-color: rgba(164, 132, 53, 1); }
+        main .value { margin-bottom: 70px; }
+        main .value h2 { position: relative; width: 40%; margin: 0 auto; text-align: center; font-size: 28px; font-weight: 800; letter-spacing: 2px; }
+        main .value h2::before { content: ''; position: absolute; width: 15px; height: 15px; top: 30%; left: 0; border-radius: 50%; background-color: rgba(164, 132, 53, 1); }
+        main .value h2::after { content: ''; position: absolute; width: 15px; height: 15px; top: 30%; right: 0; border-radius: 50%; background-color: rgba(164, 132, 53, 1); }
+        main .text { width: 80%; margin: 0 auto; }
+        main .numbers { width: 80%; padding: 20px 0 70px 0; margin: 0 auto; display: flex; justify-content: center; column-gap: 10px; flex-wrap: wrap; }
+        main .numbers .ball { margin-bottom: 10px; }
+        main .numbers .ball span { color: #000; font-size: 20px; font-weight: 800; letter-spacing: 2px; }
+
+        footer { color: #fff; padding: 30px; text-align: center; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.8); }
+        footer p { font-size: 18px; font-weight: 700; }
     </style>
 </head>
 <body>
-    
+    <div class="receipt">
+        <header>
+            <div class="primary-color-bg"></div>
+            <div class="content">
+                <div class="title">
+                    <h1>DEMONSTRAÇÃO</h1>
+                </div>
+                <div class="logo">
+                    <img width="240" height="160" src="logo-uol.png">
+                </div>  
+            </div>
+        </header>
+
+        <main>
+            <div class="data">
+                <p>Nome: Alice Brukmuller Czaikowski</p>
+                <p>Telefone: (47) 98512-8975</p>
+                <h2>ESCOLHA ALEATÓRIA</h2>
+            </div>
+            <div class="text">
+                <p>Números:</p>
+            </div>
+            <div class="numbers">
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                <div class="ball">
+                    <span>1798,</span>
+                </div>
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                <div class="ball">
+                    <span>1798,</span>
+                </div>
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                <div class="ball">
+                    <span>1798,</span>
+                </div>
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                <div class="ball">
+                    <span>1798,</span>
+                </div>
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                <div class="ball">
+                    <span>1798,</span>
+                </div>
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                <div class="ball">
+                    <span>1798,</span>
+                </div>
+                <div class="ball">
+                    <span>15839,</span>
+                </div>
+                <div class="ball">
+                    <span>258,</span>
+                </div>
+                
+            </div>
+            <div class="value">
+                <h2>VALOR PAGO: R$ 80,25</h2>
+            </div>
+        </main>
+
+        <footer class="primary-color-bg">
+            <p>Comprovante gerado em: 28/01/2013 ás 18:41:06</p>
+        </footer>
+    </div>
 </body>
 </html>
